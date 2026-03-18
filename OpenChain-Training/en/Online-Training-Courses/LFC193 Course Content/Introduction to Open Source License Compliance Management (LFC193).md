@@ -297,7 +297,9 @@ Depending on the Open Source license(s) involved, your compliance obligations ma
 
 ### Open Source Compliance Issues that May Occur During the Distribution of Software
 
-For some Open Source licenses, access via a computer network can “trigger” license conditions. For example, in the case of applications downloaded to a user’s machine or mobile device and JavaScript, web client, or other code that is downloaded to the user’s machine or browser. All versions of the [Affero General Public License (AGPL)](https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License) require providing modified source code if “users interact with it remotely through a computer network.”
+Some Open Source licenses include conditions that are triggered when software is accessed or used over a computer network. In these cases, license obligations may apply even if the software is not distributed in the traditional sense. For example, server-side applications accessed through a web interface can activate these requirements. Under all versions of the [Affero General Public License (AGPL)](https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License), if users interact with a modified program remotely through a computer network, the service operator should make the corresponding source code available to those users.
+
+Additionally, services that (automatically and silently) deliver executable code such as JavaScript or other client-side components to a user’s device or browser from a server, is often overlooked and can also trigger license conditions.
 
 ### Open Source Compliance Issues that May Occur with Untracked Modification
 
@@ -618,7 +620,7 @@ What is static linking? (TRUE/FALSE - PLEASE ADD FALSE QUESTIONS ***LIKE THIS***
 
 In the context of Open Source license compliance which of the following questions are important to ask around the distribution of software? Select all answers that apply. (MULTIPLE CHOICE - PLEASE ADD FALSE QUESTIONS ***LIKE THIS***)
 
-- Who is the software component distributed to?
+- Who is the software component distributed to (i.e. distributed internally or externally to the Organization)?
 - ***To which countries the software is distributed?***
 - How is the software component distributed?
 - Is source code included or offered?
