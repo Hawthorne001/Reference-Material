@@ -295,7 +295,7 @@ Depending on the Open Source license(s) involved, your compliance obligations ma
 5. **Reciprocity.** You may need to ensure that modified versions or derivative works source code is made available and released under the same license that governs the Open Source component.
 6. **Other Terms.** The Open Source license may have other obligations or conditions, and these can be terms that may touch upon topics like patent grants to you or from you, and the Open Source license may restrict the use of the copyright holder name or trademark, may require modified versions to use a different name to avoid confusion, or may terminate upon any breach.
 
-### Open Source Compliance Issues that May Occur During the Distribution of Software
+### Open Source Compliance Issues that May Occur With SaaS and Web Services
 
 Some Open Source licenses include conditions that are triggered when software is accessed or used over a computer network. In these cases, license obligations may apply even if the software is not distributed in the traditional sense. For example, server-side applications accessed through a web interface can activate these requirements. Under all versions of the [Affero General Public License (AGPL)](https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License), if users interact with a modified program remotely through a computer network, the service operator should make the corresponding source code available to those users.
 
